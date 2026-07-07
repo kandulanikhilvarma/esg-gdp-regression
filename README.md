@@ -57,6 +57,28 @@ OLS regression analysis testing whether CO₂ emissions per capita and renewable
 
 ---
 
+## Architecture
+
+```mermaid
+flowchart LR
+    A["World Bank ESG CSV<br/>16,969 × 68"] --> B["Filter<br/>38 OECD · 2010–2020"]
+    B --> C["Feature prep<br/>CO₂ · Renewable % · GDP growth<br/>n = 418"]
+    C --> D["EDA<br/>distributions · correlations"]
+    C --> E["OLS + Pearson r<br/>H₁ · H₂ · H₃"]
+    C --> F["Welch t-test<br/>H₄ groups"]
+    E --> G["Diagnostics<br/>AD · BP · DW · VIF"]
+    D --> H["Figures 01–10"]
+    E --> H
+    F --> H
+    G --> H
+```
+
+- **Ingest & filter** — the bulk World Bank CSV is narrowed to 38 OECD countries, 2010–2020.
+- **Feature prep** — three indicators are aligned into a 418-row modelling frame.
+- **Testing** — OLS with Pearson correlations (H₁–H₃) and a Welch t-test for the renewable-share split (H₄).
+- **Diagnostics** — Anderson–Darling, Breusch–Pagan, Durbin–Watson, and VIF checks.
+- **Output** — ten figures rendered to `figures/`.
+
 ## Methods
 
 - **OLS regression** (statsmodels) with two independent variables
