@@ -88,7 +88,7 @@ Greece (−2.64%), Italy (−0.60%), Spain (−0.003%), Portugal (0.01%), France
 ## Reproduce
 
 ```bash
-git clone https://github.com/<your-username>/esg-gdp-regression.git
+git clone https://github.com/kandulanikhilvarma/esg-gdp-regression.git
 cd esg-gdp-regression
 pip install -r requirements.txt
 jupyter notebook ESG_Regression_Analysis.ipynb
@@ -99,6 +99,18 @@ jupyter notebook ESG_Regression_Analysis.ipynb
 ---
 
 ### Nikhilvarma Kandula
+
+---
+
+## Data & Attribution
+
+Source data is the **World Bank Sovereign ESG Data** portal, © World Bank Group,
+distributed under the [Creative Commons Attribution 4.0 (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/)
+license. The World Bank does not endorse this analysis or its conclusions; the
+filtering, modelling, and interpretation here are entirely my own.
+
+Analysis code in this repository is released under the MIT License (see
+[LICENSE](LICENSE)); the source data remains under its original terms.
 
 ---
 

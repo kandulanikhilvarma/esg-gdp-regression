@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite it as below."
+title: "Does Environmental Performance Drive Economic Growth? OLS Regression on OECD ESG Data"
+authors:
+  - family-names: Kandula
+    given-names: Nikhilvarma
+    email: kandulanikhilvarma@gmail.com
+    website: "https://kandula.studio"
+type: software
+url: "https://github.com/kandulanikhilvarma/esg-gdp-regression"
+repository-code: "https://github.com/kandulanikhilvarma/esg-gdp-regression"
+license: MIT
+keywords:
+  - ESG
+  - regression
+  - OECD
+  - econometrics
+  - python
