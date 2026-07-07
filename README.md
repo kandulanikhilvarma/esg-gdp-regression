@@ -5,6 +5,7 @@ OLS regression analysis testing whether CO₂ emissions per capita and renewable
 [![Python](https://img.shields.io/badge/Python-3.10+-blue)](https://www.python.org/)
 [![Platform](https://img.shields.io/badge/Platform-Jupyter-orange)](https://jupyter.org/)
 [![Data](https://img.shields.io/badge/Data-World%20Bank%20ESG-green)](https://datacatalog.worldbank.org/search/dataset/0037651)
+[![License](https://img.shields.io/badge/License-MIT-yellow)](LICENSE)
 
 ---
 
@@ -143,3 +144,14 @@ Analysis code in this repository is released under the MIT License (see
 - Mirziyoyeva & Salahodjaev (2023). Renewable energy, GDP and CO₂ emissions in high-globalized countries. *Frontiers in Energy Research*, 11, 1123269. https://doi.org/10.3389/fenrg.2023.1123269
 - OECD (2024). *Member Countries*. https://www.oecd.org/about/members-and-partners/
 - World Bank Group (2024). *Sovereign ESG Data Portal*. https://datacatalog.worldbank.org/search/dataset/0037651
+
+---
+
+## License
+
+Released under the MIT License — see [LICENSE](LICENSE).
+
+---
+
+**Nikhilvarma Kandula** — Data Science · NLP · Statistical Analysis  
+[LinkedIn](https://www.linkedin.com/in/nikhilvarmakandula) · [Email](mailto:kandulanikhilvarma@gmail.com) · [Portfolio](https://kandula.studio)
